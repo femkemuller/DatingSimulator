@@ -14,6 +14,7 @@ video {
     box-sizing: border-box;
 }
 
+
 body {
     background-color: #FF036A;
     background-image: url(../img/achtergrond_dedroommannen.png)
@@ -36,7 +37,7 @@ div {
 }
 
 .buttons {
-    margin-top: 30em;
+    margin-top: 28em;
 }
 
 h1 {
@@ -60,7 +61,7 @@ a {
     font-family: Quicksand;
     font-weight: bold;
     color: black;
-    padding: 1.5em;
+    padding: 1em;
     padding-left: 2em;
     padding-right: 2em;
     border-radius: 3em;
@@ -74,8 +75,8 @@ a {
 
 #blue {
     background-color: #00c1fc;
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 2.7em;
+    margin-right: 2.7em;
 }
 
 #green {
