@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+* {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FF036A;
+    background-image: url(../img/achtergrond_dedroommannen.png)
+}
+
+.chosenman {
+    background-image: url(../img/achtergrond_droomman123.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttons {
+    margin-top: 30em;
+}
+
+h1 {
+    font-family: Quicksand;
+    font-weight: bold;
+    margin: 0em;
+    font-size: 1.7em;
+    color: #f3f3f3;
+}
+
+
+h2 {
+    font-family: Quicksand;
+    font-weight: bold;
+    margin: 0.1em;
+    font-size: 0.5em;
+}
+
+a {
+    background-color: #70DBFC;
+    font-family: Quicksand;
+    font-weight: bold;
+    color: black;
+    padding: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 3em;
+    text-align: center;
+    text-decoration: none;
+}
+
+#yellow {
+    background-color: #ffae00;
+}
+
+#blue {
+    background-color: #00c1fc;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+#green {
+    background-color: #61e100;
+}
+
+#yellow:hover {
+    background-color: #FF036A;
+}
+
+#blue:hover {
+    background-color: #FF036A;
+}
+
+#green:hover {
+    background-color: #FF036A;
+}
+
+img {
+    height: 16%;
+    width: 16%;
+}
+
+button {
+    background-color: #ffae00;
+    font-family: Quicksand;
+    font-weight: bold;
+    color: black;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 3em;
+    margin: 0.5em;
+    margin-top: 0.1em;
+}
+
+.interactie :nth-child(2) {
+    background-color: #70DBFC;
+}
+
+.interactie :nth-child(3) {
+    background-color: #61e100;
+}
+
+button:hover {
+    background-color: #fa63f2;
+}
+
+.interactie :nth-child(2):hover {
+    background-color: #fa63f2;
+}
+
+.interactie :nth-child(3):hover {
+    background-color: #fa63f2;
+}
+
+
+.progress-container {
+    width: 75%;
+    height: 1em;
+    background-color: #f3f3f3;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0.3em;
+}
+
+.progress-bar {
+    width: 0;
+    font-family: Quicksand;
+    font-weight: bold;
+    height: 30px;
+    background-color: #ffae00;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px;
+}
+
+#blauwbar .progress-bar {
+    background-color: #00c1fc;
+}
+
+#groenbar .progress-bar {
+    background-color: #61e100;
+}

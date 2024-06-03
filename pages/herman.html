@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DatingSimulator</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="chosenman">
+    <h1>Liefdeslevel</h1>
+
+    <!-- progressbar gemaakt met hulp van chatgpt
+promp: hoe maak ik een progressbar in html, css en javascript?
+https://chatgpt.com/share/2fc35daf-c655-46d3-b042-d724922bbacf -->
+    <h2>Honger</h2>
+    <div class="progress-container">
+        <div class="progress-bar" id="liefdes-bar"></div>
+    </div>
+    <h2>Voldoening</h2>
+    <div class="progress-container" id="blauwbar">
+        <div class="progress-bar" id="kus-bar"></div>
+    </div>
+    <h2>Ego</h2>
+    <div class="progress-container" id="groenbar">
+        <div class="progress-bar" id="compliment-bar"></div>
+    </div>
+
+    <!-- Afbeelding gegenereerd met AI van Canva
+promp: Knappe man african-american illustratie staand kleur spijkerbroek -->
+    <img src="../img/herman3.png" alt="herman">
+
+    <div class="interactie">
+        <button id="feed-button">Geef voedsel</button>
+        <button id="kiss-button">Geef kus</button>
+        <button id="compliment-button">Geef compliment</button>
+
+        <script src="../js/script.js"></script>
+</body>
+
+</html>
