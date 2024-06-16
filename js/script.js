@@ -20,6 +20,11 @@ let voedselbtn = document.querySelector("#feed-button");
 let kusbtn = document.querySelector("#kiss-button");
 let complimentbtn = document.querySelector("#compliment-button");
 
+let AudioEten = document.querySelector('#audio1')
+let AudioWow = document.querySelector('#audio2')
+let AudioLach = document.querySelector('#audio3')
+
+
 // gebruik gemaakt van Chatgpt
 // https://chatgpt.com/share/2fc35daf-c655-46d3-b042-d724922bbacf
 
@@ -44,6 +49,7 @@ function feedHenk() {
     hungerLevel += 10; // Voegt 10% toe aan de hongerbar
     if (hungerLevel > 100) hungerLevel = 100; // Maximaal 100%
     updateProgressBar("#liefdes-bar", hungerLevel); // updates de progressbar
+    AudioEten.play();
 }
 
 // Functie om de droomman een kus te geven
@@ -51,6 +57,7 @@ function kissHenk() {
     kissLevel += 10; // Voegt 10% toe aan de kusbar
     if (kissLevel > 100) kissLevel = 100; // Maximaal 100%
     updateProgressBar("#kus-bar", kissLevel); // updates de progressbar
+    AudioWow.play();
 }
 
 // Functie om de Droomman een compliment te geven
@@ -58,6 +65,7 @@ function complimentHenk() {
     complimentLevel += 10; // Voegt 10% toe aan de complimentenbar
     if (complimentLevel > 100) complimentLevel = 100; // Maximaal 100%
     updateProgressBar("#compliment-bar", complimentLevel); // updates de progressbar
+    AudioLach.play();
 }
 
 // Voeg event listeners toe aan de knoppen
